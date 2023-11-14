@@ -1,0 +1,40 @@
+.contenedor-galeria {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.imagen-principal img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+#botonAnterior,
+#botonSiguiente {
+    background-color: rgb(111, 237, 203);
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.contenedor-miniaturas {
+    margin-top: 10px;
+}
+
+.contenedor-miniaturas img {
+    width: 50px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.contenedor-miniaturas img:hover {
+    border-color: #4CAF50;
+}
